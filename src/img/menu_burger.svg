@@ -1,0 +1,6 @@
+<svg id="menu_burger" xmlns="http://www.w3.org/2000/svg" width="49" height="43" viewBox="0 0 49 43">
+  <path id="Tracé_384" data-name="Tracé 384" d="M31.5,19.5H4.5a1.5,1.5,0,0,1,0-3h27a1.5,1.5,0,0,1,0,3Z" transform="translate(6.5 3.5)"/>
+  <path id="Tracé_385" data-name="Tracé 385" d="M31.5,10.5H4.5a1.5,1.5,0,0,1,0-3h27a1.5,1.5,0,0,1,0,3Z" transform="translate(6.5 3.5)"/>
+  <path id="Tracé_386" data-name="Tracé 386" d="M31.5,28.5H4.5a1.5,1.5,0,0,1,0-3h27a1.5,1.5,0,0,1,0,3Z" transform="translate(6.5 3.5)"/>
+  <path id="Rectangle_73" data-name="Rectangle 73" d="M8,1A7.008,7.008,0,0,0,1,8V35a7.008,7.008,0,0,0,7,7H41a7.008,7.008,0,0,0,7-7V8a7.008,7.008,0,0,0-7-7H8M8,0H41a8,8,0,0,1,8,8V35a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" fill="#8cc63f"/>
+</svg>

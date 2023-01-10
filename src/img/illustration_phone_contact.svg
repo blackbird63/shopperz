@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080.888" height="1684.403" viewBox="0 0 1080.888 1684.403">
+  <defs>
+    <filter id="Tracé_362" x="87.147" y="0" width="972.596" height="1684.403" filterUnits="userSpaceOnUse">
+      <feOffset dx="33" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="illustration_phone_contact" transform="translate(0 85)">
+    <g id="phone">
+      <path id="Tracé_364" data-name="Tracé 364" d="M1078.066,5.644H2.822A2.822,2.822,0,1,1,2.822,0H1078.066a2.822,2.822,0,0,1,0,5.644Z" transform="translate(0 1468.976)" fill="#cbcbcb"/>
+      <g transform="matrix(1, 0, 0, 1, 0, -85)" filter="url(#Tracé_362)">
+        <path id="Tracé_362-2" data-name="Tracé 362" d="M762.6,350.373h-8.4V128.446C754.192,57.507,694.541,0,620.956,0H133.237C59.652,0,0,57.507,0,128.446V1345.957C0,1416.9,59.652,1474.4,133.237,1474.4H620.954c73.585,0,133.237-57.507,133.236-128.446V508.345h8.4Z" transform="translate(159.15 85)"/>
+      </g>
+      <path id="Tracé_363" data-name="Tracé 363" d="M589.567,0H525.9a44.033,44.033,0,0,1-4.537,42.555,47.8,47.8,0,0,1-39.232,20.116H202.727A47.8,47.8,0,0,1,163.5,42.558,44.035,44.035,0,0,1,158.96,0H99.5C44.548,0,0,42.869,0,95.751V1309.325c0,52.883,44.547,95.752,99.5,95.752H589.567c54.952,0,99.5-42.87,99.5-95.752h0V95.752c0-52.881-44.547-95.75-99.5-95.751Z" transform="translate(195.911 34.663)" fill="#f5ffe8"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="626" height="806" viewBox="0 0 626 806">
+  <defs>
+    <filter id="carte_blanche_infospack" x="0" y="0" width="626" height="806" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="36" result="blur"/>
+      <feFlood flood-color="#072f00" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#carte_blanche_infospack)">
+    <rect id="carte_blanche_infospack-2" data-name="carte_blanche_infospack" width="410" height="590" rx="15" transform="translate(108 95)" fill="#fff"/>
+  </g>
+</svg>
