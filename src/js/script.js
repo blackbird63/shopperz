@@ -13,5 +13,3 @@ burgerMenuToggleOnActive.addEventListener("click", () => {
     burgerMenuToggle.classList.toggle("active");
     document.querySelector(".burger-menu").classList.toggle("active");    
 });
-
-

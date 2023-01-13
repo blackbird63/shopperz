@@ -93,7 +93,8 @@ header img {
 }
 
 .burger-menu {
-    display: none;
+    display: block;
+    visibility: hidden;
     position: fixed;
     top: 0;
     right: 0;
@@ -104,10 +105,15 @@ header img {
     z-index: 999;
     padding: 15px 0;
     padding-top: 100px;
+    transition: all 1s ease-in-out;
+    transform: translateX(100%);
+    
 }
 .burger-menu.active {
-    display: block;
+    visibility: visible;
+    transform: translateX(0);
 }
+
 
 .burger-menu__link {
     padding: 10px 10px;
