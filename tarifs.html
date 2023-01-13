@@ -2,8 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/png" sizes="250x250" href="./src/img/iconShopperz.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="250x250"
+            href="./src/img/iconShopperz.png"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Tarifs</title>
         <link rel="stylesheet" type="text/css" href="src/css/style.css" />
         <link rel="stylesheet" type="text/css" href="src/css/styleTarifs.css" />
@@ -13,7 +18,9 @@
             <div class="container-header-nav">
                 <div class="container-nav">
                     <div>
-                        <a href="./index.html"><img id="logo" src="src/img/logo.svg" alt="Logo" /></a>
+                        <a href="./index.html"
+                            ><img id="logo" src="src/img/logo.svg" alt="Logo"
+                        /></a>
                     </div>
                     <div>
                         <img
@@ -21,16 +28,26 @@
                             src="src/img/menu_burger.svg"
                             alt="MenuBurger"
                         />
-                          <div class="burger-menu">
-                            <a class="burger-menu__link" href="./index.html">Accueil</a>
-                            <a class="burger-menu__link" href="./produits.html">Produits</a>
-                            <a class="burger-menu__link" href="./tarifs.html">Tarifs</a>
-                            <a class="burger-menu__link" href="./contact.html">Contact</a>
-                            <div class="burger-menu__toggle"><img
-                                src="src/img/menu_burger_quit.svg"
-                                alt="MenuBurger"
-                            /></div>
-                          </div>
+                        <div class="burger-menu">
+                            <a class="burger-menu__link" href="./index.html"
+                                >Accueil</a
+                            >
+                            <a class="burger-menu__link" href="./produits.html"
+                                >Produits</a
+                            >
+                            <a class="burger-menu__link" href="./tarifs.html"
+                                >Tarifs</a
+                            >
+                            <a class="burger-menu__link" href="./contact.html"
+                                >Contact</a
+                            >
+                            <div class="burger-menu__toggle">
+                                <img
+                                    src="src/img/menu_burger_quit.svg"
+                                    alt="MenuBurger"
+                                />
+                            </div>
+                        </div>
 
                         <nav id="menu">
                             <ul>
@@ -43,8 +60,14 @@
                 </div>
 
                 <div class="google_apple_button">
-                    <a href="https://google.com"><img src="src/img/google_play_icon.svg" alt="GooglePlay" /></a>
-                    <a href="https://google.com"><img src="src/img/apple_store_icon.svg" alt="AppStore" /></a>
+                    <a href="https://google.com"
+                        ><img
+                            src="src/img/google_play_icon.svg"
+                            alt="GooglePlay"
+                    /></a>
+                    <a href="https://google.com"
+                        ><img src="src/img/apple_store_icon.svg" alt="AppStore"
+                    /></a>
                 </div>
             </div>
         </header>
@@ -53,9 +76,101 @@
             <div class="container-homeSlogan">
                 <div class="slogan">
                     <h2>UNE FORMULE ADAPTÉE</h2>
+                    
+                </div>
+                <div class="cards-inline">
+                    <div class="card">
+                        <img
+                            src="./src/img/illustration_tirelire.svg"
+                            alt="illustration_tirelire"
+                        />
+                        <h2>BASIC PACK</h2>
+                        <p>
+                            Recommandé pour un nouveau site e-commerce à vente
+                            occasionnelles
+                        </p>
+                        <ul>
+                            <li>Votre app Android</li>
+                            <li>Votre App IOS</li>
+                            <li>Votre ERP dédié</li>
+                            <li>
+                                Options essentielles : paiement sécurisé, page
+                                d'accueil,etc
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./src/img/illustration_expert.svg"
+                            alt="illustration_expert"
+                        />
+                        <h2>EXPERT PACK</h2>
+                        <p>
+                            Recommandé pour un business florissant de ventes en
+                            ligne et en magasin
+                        </p>
+                        <ul>
+                            <li>Le contenu du Basic pack</li>
+                            <li>Pas de pubs sur votre app</li>
+                            <li>Connexion à votre ERP</li>
+                            <li>
+                                Options avancées: bannières, slideshow, codes
+                                promo
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./src/img/illustration_vip.svg"
+                            alt="illustration_vip"
+                        />
+                        <h2>VIP PACK</h2>
+                        <p>
+                            Recommandé pour un business en fort développement
+                            nécessitant des options avancées et personnalisées
+                        </p>
+                        <ul>
+                            <li>Le contenu de l'Expert pack</li>
+                            <li>Votre store sur la Marketplace</li>
+                            <li>Notifications Push</li>
+                            <li>Support 7/7</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            
+        </section>
+
+        <section>
+            <div class="container-image_subscribe">
+                <div class="container-form">
+                    <!-- <h3>ESSAYEZ GRATUITEMENT</h3> -->
+                    <form>
+                        <h3>ESSAYEZ GRATUITEMENT</h3>
+                        <label for="email"></label><br />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="email"
+                        /><br />
+                        <label for="password"></label><br />
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Mot de passe"
+                        /><br />
+                        <label for="storename"></label><br />
+                        <input
+                            type="text"
+                            id="storename"
+                            name="storename"
+                            placeholder="Nom du magasin"
+                        /><br /><br />
+                        <button type="submit">Faire un essai gratuit</button>
+                    </form>
+                </div>
+            </div>
         </section>
 
         <footer>
@@ -106,19 +221,21 @@
                     </div>
                 </div>
                 <div class="container-footer">
-                  <nav>
-                    <ul class="nav-footer">
-                      <li><a href="./produits.html">Produits</a></li>
-                      <li><a href="./tarifs.html">Tarifs</a></li>
-                      <li><a href="./contact.html">Contact</a></li>
-                      <li><a href="">Mentions légales</a></li>
-                      <li><a href="">Conditions générales de ventes</a></li>
-                      <li><a href="">Politique de confidentialité</a></li>
-                    </ul>
-                  </nav>
+                    <nav>
+                        <ul class="nav-footer">
+                            <li><a href="./produits.html">Produits</a></li>
+                            <li><a href="./tarifs.html">Tarifs</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="">Mentions légales</a></li>
+                            <li>
+                                <a href="">Conditions générales de ventes</a>
+                            </li>
+                            <li><a href="">Politique de confidentialité</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="container-footer-inline">
-                  <p>&copy 2023 SHOPPERZ - site par HDM Network</p>
+                    <p>&copy 2023 SHOPPERZ - site par HDM Network</p>
                 </div>
             </div>
         </footer>

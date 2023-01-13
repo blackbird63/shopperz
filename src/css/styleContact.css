@@ -1,0 +1,77 @@
+.slogan h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    
+}
+
+.slogan {
+    position: relative;
+}
+
+.slogan img {
+    /* position: absolute; */
+    /* width: 600px; */
+    /* height: 800px; */
+}
+.container-homeSlogan {
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: 100%;
+    
+}
+
+
+.container-homeSlogan img {
+    margin: 0 10px -20% 10px;
+    height: 350px;
+}
+
+.container-image_subscribe {
+    background: url(../img/illustration_phone_contact.svg);
+    background-repeat: no-repeat;
+    background-position: top left ;
+    background-size: 70%;
+}
+
+input[id="prenom"],
+input[id="nom"] {
+    width: 48%;
+}
+
+.inline-form {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input[type="email"],
+textarea[id="message"] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container-form {
+    padding: 20% 50% 10% 15%;
+}
+
+@media (max-width: 640px) {
+    .container-homeSlogan img {
+        display: none;
+    }
+    .container-image_subscribe {
+        background-size: 100%;
+    }
+    .container-form {
+        padding: 20% 30% 10% 18%;
+    }
+    .slogan h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+

@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact</title>
         <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="src/css/styleContact.css" />
     </head>
     <body>
         <header>
@@ -51,16 +52,59 @@
         <section>
             <div class="container-homeSlogan">
                 <div class="slogan">
-                    <h2>AVOIR UNE APPLICATION N'A JAMAIS ÉTÉ AUSSI FACILE</h2>
+                    <h2>UNE QUESTION ? CONTACTEZ-NOUS</h2>
+                    <!-- <img src="./src/img/illustration_phone_contact.svg" alt="phone_contact"> -->
                 </div>
                 <div class="img_slogan">
                     <img
-                        src="./src/img/illustration_accueil.svg"
-                        alt="illustration_accueil"
+                        src="./src/img/illustration_femme_contact.svg"
+                        alt="illustration_femme_contact"
                     />
                 </div>
             </div>
             
+        </section>
+
+        <section>
+            <div class="container-image_subscribe">
+                <div class="container-form">
+                    <!-- <h3>ESSAYEZ GRATUITEMENT</h3> -->
+                    <form>
+                        <div class="inline-form">
+                            <label for="prenom"></label>
+                            <input
+                                type="text"
+                                id="prenom"
+                                name="prenom"
+                                placeholder="Prénom"
+                            />
+                            <label for="Nom"></label>
+                            <input
+                                type="text"
+                                id="nom"
+                                name="Nom"
+                                placeholder="Nom"
+                            /></div>
+                        
+                        <label for="email"></label><br />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                        /><br />
+                        <label for="message"></label><br />
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Votre message"
+                            rows="4"
+                            cols="50"
+                        /></textarea><br /><br />
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
         </section>
 
         <footer>
